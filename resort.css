@@ -1,0 +1,42 @@
+.head{
+    background-color: rgb(15, 170, 85);
+    padding: 20px;
+    padding-left: 40px;
+    text-align: center;
+    
+}
+.text-box{
+    position: relative;
+    right: -800px;
+    background-color: rgba(224, 202, 168,0.4);
+    height: 160px;
+    width: 300px;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image-body{
+    background-image: url(pink.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.reserve-button{
+    position: relative;
+    top: -160px;
+    left: 90px;
+    border: none;
+    background-color: rgb(15, 167, 35);
+    font-weight: bolder;
+    height: 45px;
+    width: 15;
+    border-radius: 5px;
+    transition: opacity 2s;
+    transition: background-color 0.3;
+}
+.reserve-button:active{
+    opacity: 0.7;
+    background-color: aqua;
+}
