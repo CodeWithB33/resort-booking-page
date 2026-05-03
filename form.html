@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Book your stay</title>
+</head>
+<body class = "body-form" style=" background-color: aquamarine; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+   <div class="box"> <h2>Resort booking form</h2>
+    <p>please fill out details correctly</p>
+    </div>
+<form style="font-family: 'Times New Roman', Times, serif;" class="form-container" action="#" method="post">
+
+<label class="label-text" for="fname">First Name:
+
+</label>
+
+<input type="text" id="fname" class="small-input" placeholder="Type in first name" required>
+<br><br>
+<label class="label-text" for="sname">Surname:
+
+</label>
+<input type="text" id="sname" class="small-input"placeholder="Type in surname">
+<br><br>
+<label class="label-text" for="country">Country:
+
+</label>
+<input type="text" id="country" class="small-input"placeholder="Type in country">
+<br><br>
+<label class="label-text" for="checkin">Check-in:<
+    /label>
+<input type="date" id="checkin" class="small-input"placeholder="Enter date">
+<br><br>
+<label class="label-text" for="checkout">Check-out:
+    
+</label>
+<input type="date" id="checkout" class="small-input"placeholder="Enter date"><br><br>
+
+<label  class="label-text" for="room">Room type:</label>
+<select class="select-box" id="room">
+<option value="">Select a room</option>
+<option value="single">Single room</option>
+<option value="double">Double room</option>
+<option value="triple">Triple room</option>
+<option value="family-suite">Family suite</option>
+<option value="suite">Luxury suite</option>
+</select><br><br>
+
+<button class="submit-button">Submit</button>
+
+</form>
+</body>
+</html>
+<style>
+    .box{
+        position: absolute;
+        top: 0px;
+        left: 470px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .form-container{
+      background-color:rgba(222,184,135,0.6);
+       width: 300px;
+        position: relative;
+        top: 100px;
+        left: 376px;
+       padding: 40px;
+       border-radius: 7px;
+       
+    }
+    .body-form{
+        background-image: url(pink.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+    }
+
+    .small-input{
+        width: 200px;
+        height: 30px;
+    }
+    .small-input:focus{
+        outline: none;
+    }
+    .select-box{
+        width: 200px;
+        height: 40px;
+    }
+    .select-box:focus{
+        outline: none;
+    }
+    .label-text{
+        font-weight: bolder;
+        margin-left: 5px;
+        font-size: 16px;
+    }
+
+    .submit-button
+{
+    background-color: rgb(255, 2, 2);
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 36px;
+    width: 100px;
+    border-radius: 5px;
+    margin-right: 8px;
+   cursor: pointer;
+   transition: opacity 1s;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+   transition: background-color 0.3s;
+   margin-left: 88px;
+
+   
+}
+.submit-button:active{
+    opacity: 0.6;
+    background-color: rgb(70, 150, 220);
+
+}
+</style>
